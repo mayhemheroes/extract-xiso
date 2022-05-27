@@ -1,0 +1,8 @@
+project: rnshah9/extract-xiso
+target: extract-xiso
+tests:
+  - file://test2.iso
+
+cmds:
+  - cmd: /repo/build/extract-xiso -l @@
+    max_length: 1000000
