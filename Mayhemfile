@@ -1,6 +1,6 @@
-project: rnshah9/extract-xiso
+project: extract-xiso
 target: extract-xiso
-tests:
+testsuite:
   - file://test2.iso
 
 cmds:
