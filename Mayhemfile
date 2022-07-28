@@ -4,5 +4,5 @@ testsuite:
   - file://test2.iso
 
 cmds:
-  - cmd: /repo/build/extract-xiso -l @@
+  - cmd: /install/bin/extract-xiso -l @@
     max_length: 1000000
