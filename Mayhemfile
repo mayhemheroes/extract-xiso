@@ -1,0 +1,8 @@
+project: extract-xiso
+target: extract-xiso
+testsuite:
+  - file://test2.iso
+
+cmds:
+  - cmd: /install/bin/extract-xiso -l @@
+    max_length: 1000000
